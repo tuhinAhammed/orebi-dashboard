@@ -57,7 +57,7 @@ const AddProduct = () => {
         editorClassName="demo-editor"
         onEditorStateChange={onEditorStateChange}
       />
-      <h1>Store</h1>
+      <h3>Store</h3>
       <Select
     mode="single"
     tagRender={tagRender}

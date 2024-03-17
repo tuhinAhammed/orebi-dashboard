@@ -19,7 +19,7 @@ const items = [
     ]),
     getItem('product', 'sub2', <ProductOutlined />, [
       getItem('Add Product', '/addproduct', ),
-      getItem('All Product', '4', ),
+      getItem('All Product', '/allproduct', ),
     ]),
     getItem('Category', 'sub3', <MailOutlined />, [
       getItem('Add Category', '5', ),

@@ -9,7 +9,9 @@ import {
 } from "react-router-dom";
 import Login from './Components/Login/Login';
 import Error from './Components/Home/Error';
-import AddProduct from './Components/AddProduct';
+import AddProduct from './Components/product/AddProduct';
+import AllProduct from './Components/product/AllProduct';
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
@@ -25,6 +27,11 @@ const router = createBrowserRouter(
     <Route
       path="/addproduct"
       element={<AddProduct/>}
+    >
+    </Route>
+    <Route
+      path="/allproduct"
+      element={<AllProduct/>}
     >
     </Route>
       <Route
